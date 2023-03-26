@@ -6,7 +6,7 @@
 </div>
 </br>
 
-> 声明：此项目只发布于 Github，基于 MIT 协议，免费且作为开源学习使用。并且不会有任何形式的卖号、付费服务、讨论群、讨论组等行为。谨防受骗。
+> 声明：此项目是基于Chanzhaoyu/chatgpt-web的修改版本，加入的GPTForCN的api验证，使用仅需配置.env 填入你在GPTforCN的appid和secret即可使用。你也可以按照原版的openai api或网页token的形式使用。
 
 ![cover](./docs/c1.png)
 ![cover2](./docs/c2.png)
@@ -109,7 +109,19 @@ npm install pnpm -g
 ```
 
 ### 填写密钥
-获取 `Openai Api Key` 或 `accessToken` 并填写本地环境变量 [跳转](#介绍)
+1、GPTFORCN方式：填写 .env文件的 appid和secret
+
+# /.env 文件
+
+# Put gptforcn endpoint there 这里填写的是测试节点，实际以页面提供为准
+VITE_APP_API_BASE_URL=https://node-test.gptforcn.com/
+# Gptforcn appid
+VITE_APP_API_ID=
+# Gptforcn app secret
+VITE_APP_API_SECRET=
+
+
+2、OpenAI方式: 获取 `Openai Api Key` 或 `accessToken` 并填写本地环境变量 [跳转](#介绍)
 
 ```
 # service/.env 文件
