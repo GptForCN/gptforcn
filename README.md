@@ -6,7 +6,7 @@
 </div>
 </br>
 
-> 声明：此项目是基于Chanzhaoyu/chatgpt-web的修改版本，加入的<a href="https://gptforcn.com/">GptForCN</a>的api验证，使用仅需配置.env 填入你在GPTforCN的appid和secret即可使用。你也可以按照原版的openai api或网页token的形式使用。
+> 声明：此项目是基于Chanzhaoyu/chatgpt-web的修改版本，加入的<a href="https://gptforcn.com/">GptForCN（免翻墙和注册gpt）</a>的api验证，使用仅需配置.env 填入你在GPTforCN的appid和secret即可使用。你也可以按照原版的openai api或网页token的形式使用。
 
 ![cover](./docs/c1.png)
 ![cover2](./docs/c2.png)
